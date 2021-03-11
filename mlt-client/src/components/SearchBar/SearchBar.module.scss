@@ -1,0 +1,27 @@
+@import "../../theme/_variables";
+
+.searchBar {
+  width: 100%;
+
+  .fieldsContainer {
+    display: flex;
+    height: 36px;
+    border-radius: $radius;
+    overflow: hidden;
+
+    .inputSearch {
+      padding-left: 10px;
+      width: 100%;
+      border: none;
+      outline: none;
+      font: $weigth-light $font-md Arial;
+    }
+
+    .buttonSearch {
+      cursor: pointer;
+      width: 36px;
+      border: none;
+      outline: none;
+    }
+  }
+}

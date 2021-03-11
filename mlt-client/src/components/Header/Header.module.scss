@@ -1,0 +1,9 @@
+@import "../../theme/_variables";
+
+.header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: $yellow;
+}
